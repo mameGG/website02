@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(238, 232, 199);
+}
+
+.sub-color {
+  background-color: rgb(226, 219, 177);
+}
+
+.ac-color {
+  background-color: rgb(218, 209, 159);
+}
+
+.header {
+  /* border: 1px solid tomato; */
+  height: 160px;
+  display: flex;
+  font-size: 14px;
+  /* text-align: ; */
+  justify-content: center;
+}
+
+.header > p {
+  margin: 100px 10px 0;
+}
+
+#main-content {
+  /* border: 1px solid tomato; */
+  text-align: center;
+}
+
+.team-logo {
+  font-size: 100px;
+  border-bottom: 3px solid rgb(218, 209, 159);
+  font-family: 'Franklin Gothic Medium';
+  margin-bottom: 3px;
+}
+
+.footer {
+  /* border: 1px solid tomato; */
+  height: 140px;
+}
