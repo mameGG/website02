@@ -12,11 +12,16 @@ body {
 
 .header {
   /* border: 1px solid tomato; */
-  height: 160px;
+  /* height: 160px; */
   display: flex;
   font-size: 14px;
   /* text-align: ; */
   justify-content: center;
+  
+}
+
+.header > p {
+  margin: 0 auto 10px;
 }
 
 .header > p {
@@ -28,11 +33,27 @@ body {
   text-align: center;
 }
 
+.team-main {
+  /* text-align: center; */
+  height: 150px auto;
+  transition: all 1.2s;
+}
+
 .team-logo {
   font-size: 100px;
   border-bottom: 3px solid rgb(218, 209, 159);
   font-family: 'Franklin Gothic Medium';
-  margin-bottom: 3px;
+  display: inline-block;
+  margin: px;
+}
+
+.team-main:hover {
+  transform: translate(-12%, 0px);
+}
+
+.team-intro {
+  display: inline-block;
+  margin-left: 100px;
 }
 
 .footer {
