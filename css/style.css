@@ -20,12 +20,8 @@ body {
   
 }
 
-.header > p {
-  margin: 0 auto 10px;
-}
-
-.header > p {
-  margin: 100px 10px 0;
+.header p {
+  margin: 10px auto;
 }
 
 #main-content {
@@ -37,6 +33,13 @@ body {
   /* text-align: center; */
   height: 150px auto;
   transition: all 1.2s;
+}
+
+.team-icon {
+  display: block;
+  margin: 20px auto;
+  width: 270px;
+  height: 300px;
 }
 
 .team-logo {
@@ -54,6 +57,21 @@ body {
 .team-intro {
   display: inline-block;
   margin-left: 100px;
+  color: rgb(238, 232, 199);
+  width: 300px;
+  height: 153px;
+  vertical-align: bottom;
+}
+
+.team-main:hover .team-intro {
+  color: rgb(0, 0, 0);
+  transition: all 1.2s;
+  background-color: rgb(226, 219, 177);
+}
+
+.member-icon {
+  height: 120px;
+  width: 120px;
 }
 
 .footer {
