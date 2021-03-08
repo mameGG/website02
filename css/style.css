@@ -48,18 +48,22 @@ body {
   font-family: 'Franklin Gothic Medium';
   display: inline-block;
   margin: px;
+  margin-left: 300px;
 }
 
 .team-main:hover {
-  transform: translate(-12%, 0px);
+  transform: translate(-15%, 0px);
 }
 
 .team-intro {
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-top: 67px;
+  margin-bottom: 67px;
   color: rgb(238, 232, 199);
-  width: 300px;
-  height: 153px;
+  width: 260px;
+  height: 110px;
+  
   vertical-align: bottom;
 }
 
@@ -69,10 +73,25 @@ body {
   background-color: rgb(226, 219, 177);
 }
 
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.profile {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
+
 .member-icon {
   height: 120px;
   width: 120px;
 }
+
+
 
 .footer {
   /* border: 1px solid tomato; */
