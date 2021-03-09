@@ -76,22 +76,29 @@ body {
 .members {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 40px;
+  max-width: 1200px;
 }
 
 .profile {
   display: inline-block;
   height: 300px;
   width: 300px;
+  margin: 30px 50px;
+  padding: 15px;
+  border-radius: 5%;
 }
 
 .member-icon {
   height: 120px;
   width: 120px;
+  margin-left: 90px;
 }
 
-
+.member-name {
+  text-align: center;
+}
 
 .footer {
   /* border: 1px solid tomato; */
