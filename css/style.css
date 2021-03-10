@@ -7,7 +7,7 @@ body {
 }
 
 .ac-color {
-  background-color: rgb(218, 209, 159);
+  background-color: rgb(212, 191, 133);
 }
 
 .header {
@@ -29,10 +29,15 @@ body {
   text-align: center;
 }
 
+#main-content h2 {
+  margin-top: 0;
+}
+
 .team-main {
   /* text-align: center; */
-  height: 150px auto;
+  height: 250px;
   transition: all 1.2s;
+  display: inline-block;
 }
 
 .team-icon {
@@ -73,21 +78,37 @@ body {
   background-color: rgb(226, 219, 177);
 }
 
+.title {
+  /* text-align: left; */
+  padding-left: 10%;
+  margin-top: 140px;
+  font-size: 55px;
+}
+
 .members {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 40px;
-  max-width: 1200px;
+  margin: 20px auto 60px;
+  /* max-width: 1200px; */
+  width: 100%;
 }
 
 .profile {
   display: inline-block;
   height: 300px;
   width: 300px;
-  margin: 30px 50px;
+  margin: 40px 50px 50px;
   padding: 15px;
   border-radius: 5%;
+  /* box-shadow: 20px 30px 0 rgb(177, 157, 105); */
+  background-color: rgb(212, 191, 133);
+  color: rgb(248, 250, 255);
+}
+
+.profile:hover {
+  box-shadow: 20px 30px 0 rgb(177, 157, 105);
+  transition: all 1.0s;
 }
 
 .member-icon {
@@ -103,4 +124,5 @@ body {
 .footer {
   /* border: 1px solid tomato; */
   height: 140px;
+  margin-top: 80px;
 }
