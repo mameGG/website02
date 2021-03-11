@@ -17,7 +17,9 @@ body {
   font-size: 14px;
   /* text-align: ; */
   justify-content: center;
-  
+  width: 100%;
+  height: 85px;
+  align-items: flex-end;
 }
 
 .header p {
@@ -42,7 +44,7 @@ body {
 
 .team-icon {
   display: block;
-  margin: 20px auto;
+  margin: 80px auto 20px;
   width: 270px;
   height: 300px;
 }
@@ -60,6 +62,16 @@ body {
   transform: translate(-15%, 0px);
 }
 
+.team-main:hover .team-logo {
+  text-shadow: 10px 20px 0 rgb(204, 181, 124);
+  transition: all 1.3s;
+}
+
+.team-main:hover .team-intro {
+  box-shadow: 10px 15px 0 rgb(204, 181, 124);
+  transition: all 1.3s;
+}
+
 .team-intro {
   display: inline-block;
   margin-left: 50px;
@@ -68,8 +80,9 @@ body {
   color: rgb(238, 232, 199);
   width: 260px;
   height: 110px;
-  
+  border-radius: 20px;
   vertical-align: bottom;
+  padding: 5px;
 }
 
 .team-main:hover .team-intro {
@@ -96,29 +109,51 @@ body {
 
 .profile {
   display: inline-block;
-  height: 300px;
-  width: 300px;
+  height: 330px;
+  width: 330px;
   margin: 40px 50px 50px;
   padding: 15px;
   border-radius: 5%;
   /* box-shadow: 20px 30px 0 rgb(177, 157, 105); */
-  background-color: rgb(212, 191, 133);
+  /* background-color: rgb(212, 191, 133); */
   color: rgb(248, 250, 255);
 }
 
+.profile p {
+  /* font-size: 30px; */
+  color: rgb(238, 232, 199);
+  margin: 8px auto;
+}
+
 .profile:hover {
+  background-color: rgb(212, 191, 133);
   box-shadow: 20px 30px 0 rgb(177, 157, 105);
   transition: all 1.0s;
 }
 
+.profile:hover p {
+  color: rgb(82, 61, 4);;
+  transition: all 1.2s;
+}
+
+.profile:hover img {
+  box-shadow: 5px 5px 0 rgb(177, 157, 105);
+  transition: all 1.0s;
+}
+
 .member-icon {
-  height: 120px;
-  width: 120px;
-  margin-left: 90px;
+  height: 160px;
+  width: 160px;
+  margin-left: 85px;
+  /* width: 100%; */
+  border-radius: 50%;
 }
 
 .member-name {
   text-align: center;
+  font-size: 24px;
+  color: rgb(63, 46, 2);
+  margin: 0 auto;
 }
 
 .footer {
