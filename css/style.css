@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  /* border: 1px solid tomato; */
+  border: 2px solid rgb(212, 191, 133);
   /* height: 160px; */
   display: flex;
   font-size: 14px;
@@ -34,11 +34,12 @@ body {
   text-align: center;
 }
 
-#main-content h2 {
-  display: inline-block;
+#sub-title {
+  /* display: inline-block; */
   margin-top: 0;
   border-bottom: 2px solid rgb(218, 209, 159);
   font-size: 22px;
+  text-align: center;
 }
 
 .team-main {
@@ -57,10 +58,10 @@ body {
 
 .team-logo {
   font-size: 100px;
-  border-bottom: 3px solid rgb(218, 209, 159);
+  /* border-bottom: 3px solid rgb(218, 209, 159); */
   font-family: 'Franklin Gothic Medium';
   display: inline-block;
-  margin: px;
+  /* margin: px; */
   margin-left: 300px;
 }
 
@@ -165,6 +166,10 @@ body {
 
 .footer {
   /* border: 1px solid tomato; */
-  height: 140px;
+  height: 60px;
   margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
+
